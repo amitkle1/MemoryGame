@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: beige;
 }
 
 .App-logo {
@@ -35,4 +36,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.gameboard {
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+
+.row {
+  display: flex;
+  height: 66px;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.playboard {
+  margin: 50px auto;
+  width: 80%;
+  height: 300px;
+  border: 1px solid black;
+  background-color: antiquewhite;
+}
+.circle-container {
+  margin: 50px auto;
+  width: 300px;
+}
+.bulb {
+  width: 100px;
+  cursor: pointer;
+}
+
+.bulb-on {
+  width: 100px;
+  filter: brightness(0.5);
 }
